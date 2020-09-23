@@ -23,21 +23,19 @@ export const Column = styled.div`
 
 export const Document = styled.div`
   display: flex;
-  /* centralizar imagem tanto verdicalmente como horizontal */
   align-items: center;
   justify-content: center;
 
-  /* Altura da galaria */
+  /* Altura da documento */
   height: 530px;
 
   /* A imagem vai ter uma altura de 73% do pai dela */
   > div {
-    height: 73%;
+    /* height: 73%; */
   }
 `;
 
 export const Section = styled.div`
-  border-top: 1px solid var(--color-border);
   padding: 48px 32px;
 
   display: flex;

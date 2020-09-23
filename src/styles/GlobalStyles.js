@@ -20,6 +20,10 @@ export default createGlobalStyle`
   }
   :root {
     --color-primary: #F5F5F5;
+    --color-black: #333;
+    --color-white: #FFF;
+    --color-gray: #666;
+    --color-blue: #3483fa;
     --color-border: #ddd;
     --panel-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
   }
