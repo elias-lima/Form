@@ -2,18 +2,16 @@ import React from 'react';
 
 import Forms from '../Forms';
 
-import { Container, Wrapper } from './styles';
+import { Containner, Wrapper} from './styles';
 
 const Layout = () => {
-  return (
-    <Container>
-
+  return(
+    <Containner>
       <Wrapper>
         <Forms />
       </Wrapper>
-
-    </Container>
-  )
+    </Containner>
+  );
 };
 
 export default Layout;

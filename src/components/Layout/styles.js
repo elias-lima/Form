@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Containner = styled.div`
   margin: 0 100px;
 `;
 

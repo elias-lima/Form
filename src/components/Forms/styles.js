@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 import '../../styles/GlobalStyles';
 
@@ -7,12 +7,35 @@ export const Container = styled.div`
   flex-direction: column;
 `;
 
+export const Header =styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > h1 {
+    margin-top: 20px;
+  }
+
+  > div {
+    box-shadow: var(--panel-shadow);
+    margin-top: 10px;
+
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+`;
+
 export const Panel = styled.div`
+  margin-top: 10px;
   background: var(--color-white);
   box-shadow: var(--panel-shadow);
-
   display: grid;
   grid-template-columns: 65fr 35fr;
+
 `;
 
 export const Column = styled.div`
@@ -23,15 +46,27 @@ export const Column = styled.div`
 
 export const Document = styled.div`
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-top: 5px;
 
-  /* Altura da documento */
+  /* Altura da do cumento */
   height: 530px;
 
-  /* A imagem vai ter uma altura de 73% do pai dela */
+  /* O documento vai ter uma altura de 73% do pai dela */
   > div {
     /* height: 73%; */
+
+    display :flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 90%;
+    height: 50px;
+    
+    border: 1px solid var(--color-border);
+    > label {
+      font: bold;
+    }
   }
 `;
 

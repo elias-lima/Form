@@ -2,22 +2,27 @@ import React from 'react';
 
 import {
   Container,
+  Header,
   Panel,
   Column,
   Document,
   Section,
 } from './styles';
 
-
 const Forms = () => {
-  return(
+  return (
     <Container>
+      <Header>
+        <h1>CONSERVATÓRIO DOS REGISTOS COMERCIAL E DE BENS MÓVEIS</h1>
+        <div>
+          <h2>Pedido de registo de compra e venda</h2>
+        </div>
+      </Header>
+
       <Panel>
         <Column>
           <Document>
-            <div>
-              
-            </div>
+          
           </Document>
 
         </Column>
@@ -31,7 +36,7 @@ const Forms = () => {
       </Panel>
     </Container>
   );
-};
+}
 
 const FormSection = () => (
   <Section>
