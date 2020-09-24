@@ -76,7 +76,6 @@ const Forms = () => {
 
           <FormSection />
           <FormSection />
-          <FormSection />
         </Column>
       </Panel>
     </Container>
