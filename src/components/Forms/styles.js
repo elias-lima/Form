@@ -75,10 +75,9 @@ export const FormDoc = styled.div`
       border: 1px solid #555;
     }
     .box {
-    margin-right: 140px;
+      margin-right: 140px;
+    }
   }
-  }
-  
 `;
 
 export const Section = styled.div`
