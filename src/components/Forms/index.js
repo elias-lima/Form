@@ -5,6 +5,7 @@ import {
   Header,
   Panel,
   Column,
+  FormDoc,
   Document,
   Section,
 } from './styles';
@@ -22,7 +23,51 @@ const Forms = () => {
       <Panel>
         <Column>
           <Document>
-          
+            <FormDoc>
+              <div>
+                <span>
+                  <p className="paragrafo">
+                    <label>Nome:</label>
+                    <input type="text" className="nome"></input>
+                    <label>Idade:</label>
+                    <input type="number" min="0" max="100" className="T-pequeno"></input>
+                  </p>
+                </span>
+                <span>
+                  <p className="paragrafo">
+                    <label>Data de nsacimento:</label>
+                    <input type="data" className="T-pequeno"></input>
+                    <label>Nacionalidade:</label>
+                    <input type="text" className="T-pequeno"></input>
+                    <label>Sexo:</label>
+                    <select className="T-pequeno">
+                      <option>Masculino</option>
+                      <option>Femenino</option>
+                      <option>Outros</option>
+                    </select>
+                  </p>
+                </span >
+                <span>
+                  <p className="paragrafo">
+                    <label>Estado civil:</label>
+                    <select className="T-pequeno">
+                      <option>Solteiro/a</option>
+                      <option>Casado/a</option>
+                      <option>Devorciado/a</option>
+                    </select>
+                    <label>Nome do cônjuge:</label>
+                    <input type="text" className="nome"></input>
+                  </p>
+                </span>
+                <span>
+                  <p className="paragrafo">
+                    Regime de bens: <input type="checkbox" className="box" />
+                    Reg. da com. de adquiridos: <input type="checkbox" className="box" />
+                    Reg. da com. geral de bens: <input type="checkbox" className="box" />
+                  </p>
+                </span>
+              </div>
+            </FormDoc>
           </Document>
 
         </Column>

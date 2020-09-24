@@ -48,26 +48,10 @@ export const Document = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 5px;
+`;
 
-  /* Altura da do cumento */
-  height: 530px;
+export const FormDoc = styled.div`
 
-  /* O documento vai ter uma altura de 73% do pai dela */
-  > div {
-    /* height: 73%; */
-
-    display :flex;
-    justify-content: flex-end;
-    align-items: center;
-
-    width: 90%;
-    height: 50px;
-    
-    border: 1px solid var(--color-border);
-    > label {
-      font: bold;
-    }
-  }
 `;
 
 export const Section = styled.div`
