@@ -51,7 +51,34 @@ export const Document = styled.div`
 `;
 
 export const FormDoc = styled.div`
+  width: 95%;
+  /* border: 1px solid var(--color-border); */
 
+  > div {
+    .paragrafo {
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .nome {
+      width: 50%;
+      padding: 12px 20px; 
+      margin: 0 5px;
+      box-sizing: border-box;
+      border: 1px solid #555;
+    }
+    .T-pequeno {
+      width: 20%;
+      padding: 12px 20px;
+      margin: 0 5px;
+      box-sizing: border-box;
+      border: 1px solid #555;
+    }
+    .box {
+    margin-right: 140px;
+  }
+  }
+  
 `;
 
 export const Section = styled.div`

@@ -35,8 +35,8 @@ const Forms = () => {
                 </span>
                 <span>
                   <p className="paragrafo">
-                    <label>Data de nsacimento:</label>
-                    <input type="data" className="T-pequeno"></input>
+                    <label>Data de nascimento:</label>
+                    <input type="date" className="T-pequeno"></input>
                     <label>Nacionalidade:</label>
                     <input type="text" className="T-pequeno"></input>
                     <label>Sexo:</label>
